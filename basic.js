@@ -38,3 +38,18 @@ btn.addEventListener('click',()=>{
     }
 
 })
+
+
+// even or odd 
+let val=prompt("enter a number and check odd or even");
+let b=document.querySelector("h1")
+function evenodd(a){
+    if(a%2==0){
+        b.innerText="this is even";
+    }
+    else{
+        b.innerText="this is odd";
+    }
+
+}
+evenodd(val);
